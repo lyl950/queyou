@@ -59,6 +59,8 @@ class CustomerProtectContactController extends \yii\web\Controller
     }
     function actionProtectContactDelete(){
 
+        $this->request->getIsDelete();
+
     }
 
 }
